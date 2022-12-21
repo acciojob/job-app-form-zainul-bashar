@@ -8,29 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Job App Form</h1>
-	<form>
+	<form action="" method="post">
 		<label for="name">Name*</label>
-		<input type="text" id="#name" required><br>
+		<input type="text" id="name" name="name" required><br>
 		<label for="email">Email*</label>
-		<input type="email" id="email" required><br>
+		<input type="email" id="email" name="email" required><br>
 		<label for="gender">Gender*</label>
-		<input type="radio" name="gender" vlaue="male" required>
+		<input type="radio" name="gender" id="gender" value="male" required>
 		<label for="male">Male</label>
-		<input type="radio" name="gender" value="female" required>
+		<input type="radio" name="gender" id="gender" value="female" required>
 		<label for="female">Female</label><br>
 		<label for="laptop">Laptop Brands</label>
-		<select id="#laptop">
+		<select id="laptop">
 			<option value="asus">Asus</option>
 			<option value="apple">Apple</option>
 			<option value="HP">HP</option>
 		</select><br>
 		<label for="age">Age</label>
-		<input type="number" id="#age" required><br>
+		<input type="number" id="age" required><br>
 		<label for="DOB">DOB</label>
-		<input type="number" id="#dob" required><br>
+		<input type="number" id="dob" required><br>
 		<label for="password">Password</label>
-		<input type="password" id="#password" required><br>
+		<input type="password" id="password" required><br>
 		<label for="portfolio">Portfolio</label>
 		<input type="url" id="#portfolio" required><br><br>
 		<button type="submit button" value="submit button">Submit</button>
